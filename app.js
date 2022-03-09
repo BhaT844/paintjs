@@ -72,7 +72,7 @@ function handleSaveClick() {
     const image = canvas.toDataURL();
     const link = document.createElement("a");
     link.href = image;
-    link.download = "🤣🤣🤣";
+    link.download = "PaintJS";
     link.click();
 }
 
@@ -97,6 +97,3 @@ if (mode) {
 if (saveBtn) {
     saveBtn.addEventListener("click", handleSaveClick);
 }
-
-//canvas 초기화
-//ctx.clearRect(0, 0, canvas.width, canvas.height);
